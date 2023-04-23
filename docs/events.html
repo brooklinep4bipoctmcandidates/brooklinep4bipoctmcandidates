@@ -11,19 +11,24 @@
     <title>Brookline Pct 4 BIPOC+ Town Meeting Candidates</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #bcc3e0;">
+    <div class="container bg-bipocbgheader"> <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand text-bipocbluetitle" href="#">
-          <h2> Brookline Pct 4 BIPOC+ Town Meeting Candidates </h2>
+        <a class="navbar-brand text-bipocbluetitle text-wrap" href="#">
+          <h2>
+            Brookline Pct 4
+            BIPOC<span class="text-bipocbgred">+</span>
+            Town Meeting Candidates
+          </h2>
           <p class="text-bipocbgred">May 2, 2023 Election</p>
         </a>
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarText" aria-expanded="false"
+                aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-justified">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
@@ -33,20 +38,35 @@
             <li class="nav-item">
               <a class="nav-link" href="precinct.html">Precinct Map</a>
             </li>
+            <!--
             <li class="nav-item">
               <a class="nav-link" href="vote.html">Get Ready to Vote</a>
             </li>
+            -->
             <li class="nav-item">
-              <a class="nav-link active" href="#">Events</a>
+              <a class="nav-link active" href="events.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ballot.html">Sample Ballot</a>
+              <a class="nav-link" href="ballot">Sample Ballot</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> </div>
 
+    <p> &nbsp </p>
+    <div class="container">
+      <h2 class="fw-bold text-bipocbgblue">
+        Election Events
+      </h2>
+      <p class='fw-bold fs-4'>
+        Get your voting on!
+        <br/>
+        Here is where you need to be and when you
+        need to be there.
+      </p>
+    </div>
+    
     <p> &nbsp </p>
     
     <div id="event_table" class="container">
@@ -56,37 +76,34 @@
         </thead>
         <tbody>
           <tr>
-            <td style="background-image: url('images/Voter_registration_image.jpg');
+            <td style="background-image: url('images/voting_box_image.jpg');
                        background-position: left;
                        background-size: 200px;
                        background-repeat: no-repeat;
-                       height: auto;
-                       width: 200px">
+                       width: 200px;
+                       height: auto">
             </td>
             <td>
               <p class="fw-bold">
                 Sat, Apr 22, 2023
               </p>
-              <p>
-                Last Day to Register to Vote
+              <p class="fs-2">
+                Early Voting Begins
               </p>
             </td>
-            <td>
+            <td class="p-4">
+              <p class="fs-5 fw-bold text-bipocbgred">
+                Brookline Town Hall, 333 Washington Street
+              </p>
               <ul>
-                <li>
-                  You can do this
-                  <a href="https://www.sec.state.ma.us/ovr/?ref=voteusa_en">
-                    online.
-                  </a>
-                </li>
-                <li>
-                  Or at the
-                  <a href="https://www.brooklinema.gov/131/Town-Clerk"> Town Clerk's office </a>
+                <li > Sat - Sun: 10am - 4pm </li>
+                <li > Mon - Thu: 8am - 5pm </li>
+                <li > Fri: 8am - 12:30pm </li>
               </ul>
             </td>
           </tr>
           <tr>
-            <td style="background-image: url('images/Absentee_ballot_by_mail_photo.jpg');
+            <td style="background-image: url('images/voting_box_image.jpg');
                        background-position: left;
                        background-size: 200px;
                        background-repeat: no-repeat;
@@ -95,54 +112,18 @@
             </td>
             <td>
               <p class="fw-bold">
-                Tue, Apr 25, 2023
+                Fri, Apr 28, 2023
               </p>
-              <p>
-                Last Day to Request Absentee Ballots by Mail
+              <p class="fs-2">
+                Last Day of Early Voting
               </p>
             </td>
-            <td>
+            <td class="p-4">
+              <p class="fs-5 fw-bold text-bipocbgred">
+                Brookline Town Hall, 333 Washington Street
+              </p>
               <ul>
-                <li>
-                  Write a request for an absentee ballot. Either download the
-                  <a href="https://www.sec.state.ma.us/ele/elepdf/absentee/English-Absentee-Ballot-Application.pdf">
-                    official form
-                  </a>,
-                  or write a letter with your signature.
-                </li>
-                <li>
-                  Email, Fax, or mail the request to the
-                  <a href="https://www.brooklinema.gov/131/Town-Clerk"> Town Clerk. </a>
-                </li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td style="background-image: url('images/Absentee_ballot_in_person_photo.jpg');
-                       background-position: left;
-                       background-size: 200px;
-                       background-repeat: no-repeat;
-                       width: 200px;
-                       height: auto">
-            </td>
-            <td>
-              <p class="fw-bold">
-                Mon, May 1, 2023
-              </p>
-              <p>
-                Last Day to Apply for Absentee Ballots in Person
-              </p>
-            </td>
-            <td>
-              <ul>
-                <li>
-                  Head over to the
-                  <a href="https://www.brooklinema.gov/131/Town-Clerk"> Town Clerk's office </a>
-                  BEFORE NOON
-                </li>
-                <li>
-                  You can complete and submit your ballot right there
-                </li>
+                <li > Fri: 8am - 12:30pm </li>
               </ul>
             </td>
           </tr>
@@ -156,14 +137,16 @@
             </td>
             <td>
               <p class="fw-bold"> Tue, May 2. 2023 </p>
-              <p class="fs-4"> ELECTION DAY!!! </p>
+              <p class="fs-2"> ELECTION DAY!!! </p>
             </td>
-            <td>
+            <td class="p-4">
+              <p class="fs-5 fw-bold text-bipocbgred">
+                Brookline Town Hall, 333 Washington Street
+              </p>
               <ul>
-                <li> It's HERE! Let's make democracy happen. </li>
-                <li> Precinct 4 votes at OLD Lincoln </li>
+                <li> It's Here! </li>
+                <li > 7am - 8pm </li>
               </ul>
-              
             </td>
           </tr>
         </tbody>
@@ -200,29 +183,33 @@
       <p> &nbsp; </p>
     </div>
     
-    <div class="container text-light" style="background-color: #2c16db;">
+
+    <!-- -------------------Footer ------------------------- -->
+    <div class="container text-light bg-bipocbgblue">
       <div class="row">
         <div class="col-12 col-md-9">
           <div class="row">
-            <div class="col-4">
+            <div class="col-4 p-4">
               <h2>P4 BIPOC+</h2>
-              <h4>May 2, 2023</h4>
-              <p>
+              <h5 class="fw-bold">May 2, 2023</h5>
+              <p class="fw-bold">
+                <br/>
+                <br/>
                 Let's build a better <br/>
                 Brookline <br/>
                 together.
               </p>
             </div>
-            <div class="col-12 col-md-8">
-              <p>
+            <div class="col-12 col-md-8 p-4">
+              <p class="fw-bold fs-5">
                 We have so many exciting things going on, be the first to find out!
               </p>
-              <p class="text-center">
+              <p>
                 <a href="mailto:info@brooklinep4bipoctmcandidates.info" class="text-light" >
                   info@brooklinep4bipoctmcandidates.info
                 </a>
               </p>
-              <p class="text-center">
+              <p>
                 <a href="#" class="text-light">
                   www.brooklinep4bipoctmcandidates.info
                 </a>
@@ -230,16 +217,17 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-3">
-          <h5>Diversity</h5>
-          <h5>Equity</h5>
-          <h5>Climate Action</h5>
-          <h5>Compassion</h5>
-          <h5>Justice</h5>
-          <h5>Hope</h5>
+        <div class="col-12 col-md-3 p-4">
+          <h5 class="fw-bold">Diversity</h5>
+          <h5 class="fw-bold">Equity</h5>
+          <h5 class="fw-bold">Climate Action</h5>
+          <h5 class="fw-bold">Compassion</h5>
+          <h5 class="fw-bold">Justice</h5>
+          <h5 class="fw-bold">Hope</h5>
         </div>
       </div>
     </div>
+
 
     <!-- -----------  END ---------------- -->
     <script src="js/bootstrap.bundle.min.js"></script>

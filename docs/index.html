@@ -13,22 +13,29 @@
 
     <title>Brookline Pct 4 BIPOC+ Town Meeting Candidates</title>
   </head>
+
+
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #bcc3e0;">
+    <div class="container bg-bipocbgheader"> <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand text-bipocbluetitle" href="#">
-          <h2> Brookline Pct 4 BIPOC+ Town Meeting Candidates </h2>
+        <a class="navbar-brand text-bipocbluetitle text-wrap" href="#">
+          <h2>
+            Brookline Pct 4
+            BIPOC<span class="text-bipocbgred">+</span>
+            Town Meeting Candidates
+          </h2>
           <p class="text-bipocbgred">May 2, 2023 Election</p>
         </a>
         <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarText" aria-expanded="false"
+                aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-justified">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="candidates.html">Meet the Candidates</a>
@@ -36,9 +43,11 @@
             <li class="nav-item">
               <a class="nav-link" href="precinct.html">Precinct Map</a>
             </li>
+            <!--
             <li class="nav-item">
               <a class="nav-link" href="vote.html">Get Ready to Vote</a>
             </li>
+            -->
             <li class="nav-item">
               <a class="nav-link" href="events.html">Events</a>
             </li>
@@ -48,25 +57,28 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> </div>
 
     <div class="container">
       <div class="row">
         <div class="col-4">
-          <h1 class="text-bipocbluetitle">Who Are We?</h1>
-          <p>
-            We are people of color who are running for election to
-            Brookline Town Meeting in one of two new Majority Minority
-            voting precincts <br/>
-            <span class="fw-bold fst-italic">
-              - Precinct 4!!
+          <h2 class="text-bipocbluetitle">Who Are We?</h1>
+          <p class="fw-bold fs-5">
+            We are people of color and/or low income, who are running
+            for election to Brookline Town Meeting in one of two BIPOC
+            majority voting precincts -
+            <span class="fw-bold fst-italic text-bipocbgred">
+              Precinct 4!!
             </span>
           </p>
         </div>
+
         <div class="col-4">
-          <h1 class="text-bipocbluetitle">What is Plus?</h1>
-          <p>
-            Plus + stands for low-income. Some BIPOC folks are
+          <h2 class="text-bipocbluetitle">What is Plus?</h1>
+          <p class="fw-bold fs-5">
+            Plus
+            <span class="fw-bold text-bipocbgred"> + </span>
+            stands for low-income. Some BIPOC folks are
             low-income. Others are not, but there are a lot of
             priorities that BIPOC and low-income folks share.
           </p>
@@ -93,38 +105,93 @@
         </div>
       </div>
       <p class="text-center">
-        <a href="candidates.html" class="btn btn-dark">
+        <a href="candidates.html" class="btn btn-bipocbgblue">
           Meet the Candidates
         </a>
       </p>
       <p> &nbsp; </p>
     </div>
     
-    <div class="container">
-      <table class="table">
+    <!-- events -->
+        <div id="event_table" class="container">
+      <table class="table bg-bipocbglavender">
         <thead>
           <th class="fs-2 text-bipocbluetitle" colspan=3> Election Events </th>
         </thead>
         <tbody>
           <tr>
-            <td> Sat, Apr 22, 2023 </td>
-            <td> Last Day to Register to Vote </td>
-            <td> <a href="events.html#event_table"> Details </a> </td>
+            <td style="background-image: url('images/voting_box_image.jpg');
+                       background-position: left;
+                       background-size: 200px;
+                       background-repeat: no-repeat;
+                       width: 200px;
+                       height: auto">
+            </td>
+            <td>
+              <p class="fw-bold">
+                Sat, Apr 22, 2023
+              </p>
+              <p class="fs-2">
+                Early Voting Begins
+              </p>
+            </td>
+            <td class="p-4">
+              <p class="fs-5 fw-bold text-bipocbgred">
+                Brookline Town Hall, 333 Washington Street
+              </p>
+              <ul>
+                <li > Sat - Sun: 10am - 4pm </li>
+                <li > Mon - Thu: 8am - 5pm </li>
+                <li > Fri: 8am - 12:30pm </li>
+              </ul>
+            </td>
           </tr>
           <tr>
-            <td> Tue, Apr 25, 2023 </td>
-            <td> Last Day to Apply for Absentee Ballots by Mail </td>
-            <td> <a href="events.html#event_table"> Details </a> </td>
+            <td style="background-image: url('images/voting_box_image.jpg');
+                       background-position: left;
+                       background-size: 200px;
+                       background-repeat: no-repeat;
+                       width: 200px;
+                       height: auto">
+            </td>
+            <td>
+              <p class="fw-bold">
+                Fri, Apr 28, 2023
+              </p>
+              <p class="fs-2">
+                Last Day of Early Voting
+              </p>
+            </td>
+            <td class="p-4">
+              <p class="fs-5 fw-bold text-bipocbgred">
+                Brookline Town Hall, 333 Washington Street
+              </p>
+              <ul>
+                <li > Fri: 8am - 12:30pm </li>
+              </ul>
+            </td>
           </tr>
           <tr>
-            <td> Mon, May 1, 2023 </td>
-            <td> Last Day to Apply for Absentee Ballots in Person </td>
-            <td> <a href="events.html#event_table"> Details </a> </td>
-          </tr>
-          <tr>
-            <td> Tue, May 2, 2023 </td>
-            <td> ELECTION DAY!!! </td>
-            <td> <a href="events.html#event_table"> Details </a> </td>
+            <td style="background-image: url('images/voting_box_image.jpg');
+                       background-position: left;
+                       background-size: 200px;
+                       background-repeat: no-repeat;
+                       width: 200px;
+                       height: auto">
+            </td>
+            <td>
+              <p class="fw-bold"> Tue, May 2. 2023 </p>
+              <p class="fs-2"> ELECTION DAY!!! </p>
+            </td>
+            <td class="p-4">
+              <p class="fs-5 fw-bold text-bipocbgred">
+                Brookline Town Hall, 333 Washington Street
+              </p>
+              <ul>
+                <li> It's Here! </li>
+                <li > 7am - 8pm </li>
+              </ul>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -157,7 +224,7 @@
 
     <div class="container">
       <p> &nbsp; </p>
-      <h2 class="text-bipocbluetitle">Endorsements</h2>
+      <h2 class="text-bipocbluetitle fw-bold">Endorsements</h2>
       <p> &nbsp; </p>
       <a class="btn btn-dark" href="https://brooklinepax.wordpress.com/">
         <span class="fs-4 fw-bold"> Brookline PAX </span>
@@ -167,29 +234,33 @@
       <p> &nbsp; </p>
       
     </div>
-    - <div class="container text-light" style="background-color: #2c16db;">
+
+    <!-- -------------------Footer ------------------------- -->
+    <div class="container text-light bg-bipocbgblue">
       <div class="row">
         <div class="col-12 col-md-9">
           <div class="row">
-            <div class="col-4">
+            <div class="col-4 p-4">
               <h2>P4 BIPOC+</h2>
-              <h4>May 2, 2023</h4>
-              <p>
+              <h5 class="fw-bold">May 2, 2023</h5>
+              <p class="fw-bold">
+                <br/>
+                <br/>
                 Let's build a better <br/>
                 Brookline <br/>
                 together.
               </p>
             </div>
-            <div class="col-12 col-md-8">
-              <p>
+            <div class="col-12 col-md-8 p-4">
+              <p class="fw-bold fs-5">
                 We have so many exciting things going on, be the first to find out!
               </p>
-              <p class="text-center">
+              <p>
                 <a href="mailto:info@brooklinep4bipoctmcandidates.info" class="text-light" >
                   info@brooklinep4bipoctmcandidates.info
                 </a>
               </p>
-              <p class="text-center">
+              <p>
                 <a href="#" class="text-light">
                   www.brooklinep4bipoctmcandidates.info
                 </a>
@@ -197,13 +268,13 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-3">
-          <h5>Diversity</h5>
-          <h5>Equity</h5>
-          <h5>Climate Action</h5>
-          <h5>Compassion</h5>
-          <h5>Justice</h5>
-          <h5>Hope</h5>
+        <div class="col-12 col-md-3 p-4">
+          <h5 class="fw-bold">Diversity</h5>
+          <h5 class="fw-bold">Equity</h5>
+          <h5 class="fw-bold">Climate Action</h5>
+          <h5 class="fw-bold">Compassion</h5>
+          <h5 class="fw-bold">Justice</h5>
+          <h5 class="fw-bold">Hope</h5>
         </div>
       </div>
     </div>
